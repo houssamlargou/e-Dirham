@@ -7,17 +7,20 @@
         color:#767799;
     }
     .impact-hero {
-        display: flex;
-        flex-direction: column;
+        display: grid;
         text-align: center;
         gap: 30px;
         padding: 20px;
         padding-top: 40px;
     }
-
+    .impact-hero img{
+        width: 100%;
+        height:auto;
+    }
     .info-herooo {
         display: grid;
-        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         gap: 30px;
     }
 
@@ -32,7 +35,6 @@
         color:#fff;
         display:grid;
         justify-content: center;
-        flex-direction: column;
         align-items: center;
         gap: 50px;
         padding-top:40px;
@@ -54,7 +56,6 @@
     }
     .statics{
         display:grid;
-        flex-direction: column;
         text-align: center;
         align-items: center;
         margin: 20px;
@@ -67,6 +68,7 @@
     }
     .static-info{
         padding: 60px;
+        height:fit-content;
     }
     .big-static-title{
         display:flex;
@@ -74,9 +76,6 @@
         justify-content: center;
         gap: 20px;
 
-    }
-    .big-static-title h1{
-        width: 200px;
     }
     .big-static-title img{
         width: 54px;
@@ -110,5 +109,94 @@
         text-align: center;
     }
     .card-comment{
-        display:flex
+        display:flex;
+        padding: 40px;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        justify-content: center;
+        border: solid 1px;
+        border-radius: 30px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
+    .card-comment img{
+        width: 60px;
+        height:60px;
+    }
+   @media (min-width:1200px) {
+    .impact-hero{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: 1fr;
+        background-image:url(image/hero-impact-bg.png);
+        background-size: cover;
+    }
+    .info-herooo,.info-herooo span{
+        color:#fff;
+        text-align: start;
+        font-size: 120%;
+    }
+    .info-herooo{
+        padding-left: 50px;
+        gap:unset;
+        justify-content: center;
+        align-items: center;
+    }
+    .info-herooo h1{
+        font-size: 50px;
+    }
+    .btn-hero{
+        width: 20rem;
+    }
+    .info-general{
+        display: grid;
+        grid-template-rows:auto;
+        grid-template-columns: repeat(4,1fr);
+        padding: 50px;
+    }
+    .statics{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(3,1fr);
+        width: 100%;
+        margin: 20px;
+    }
+    .statics-hero{
+        grid-column: 1 / 4;
+    }
+    .bot,.top-bot,.top{
+        border: none;
+    }
+    .static-info{
+        border: solid #00B6F7;
+    }
+    .left-top{
+        border-left:none;
+        border-top: none;
+    }
+    .top1{
+        border-top:none;
+    }
+    .right-top{
+        border-right:none;
+        border-top:none;
+    }
+    .bot-left{
+        border-left:none;
+        border-bottom: none;
+    }
+    .bot1{
+        border-bottom: none;
+    }
+    .right-bottom{
+        border-right: none;
+        border-bottom: none;
+    }
+    .grid-comment{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 40px;
+    }
+    
+   }
+
