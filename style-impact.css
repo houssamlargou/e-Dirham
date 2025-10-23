@@ -1,0 +1,114 @@
+ @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+    * {
+        font-family: "plus jakarta sans", sans-serif;
+    }
+    span{
+        color:#767799;
+    }
+    .impact-hero {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+        padding: 20px;
+        padding-top: 40px;
+    }
+
+    .info-herooo {
+        display: grid;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .btn-hero {
+        background-color: #0365D0;
+        height: 40px;
+        color: #fff;
+    }
+
+    .info-general {
+        background-color: #00B6F7;
+        color:#fff;
+        display:grid;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        padding-top:40px;
+        padding-bottom: 40px;
+    }
+    .info-icn1{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        padding: 20px;
+    }
+    .info-icn1 span{
+        color:#fff;
+    }
+    .info-icn1 img{
+        height: 54px;
+        width: 54px;
+    }
+    .statics{
+        display:grid;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        margin: 20px;
+        
+        
+    }
+    .statics-hero{
+        gap: 20px;
+        padding: 40px;
+    }
+    .static-info{
+        padding: 60px;
+    }
+    .big-static-title{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+
+    }
+    .big-static-title h1{
+        width: 200px;
+    }
+    .big-static-title img{
+        width: 54px;
+        height: 54px;
+    }
+    .top {
+        border-top: solid #00B6F7;
+    }
+    .top-bot{
+        border-top:solid #00B6F7;
+        border-bottom: solid #00B6F7;
+    }
+    .bot{
+        border-bottom: solid #00B6F7;
+    }
+    .title-comment{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+    .comment{
+        display: grid;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        gap: 30px;
+    }
+    .comment span{
+        text-align: center;
+    }
+    .card-comment{
+        display:flex
+    }
