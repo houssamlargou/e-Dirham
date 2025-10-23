@@ -31,7 +31,7 @@
     }
 
     .info-general {
-        background-color: #00B6F7;
+        background-color: #32c5f9;
         color:#fff;
         display:grid;
         justify-content: center;
@@ -68,7 +68,7 @@
     }
     .static-info{
         padding: 60px;
-        height:fit-content;
+        height: 150px;;
     }
     .big-static-title{
         display:flex;
@@ -128,7 +128,7 @@
         display: grid;
         grid-template-columns: repeat(2,1fr);
         grid-template-rows: 1fr;
-        background-image:url(image/hero-impact-bg.png);
+        background-image:url(image-impact/hero-impact-bg.png);
         background-size: cover;
     }
     .info-herooo,.info-herooo span{
@@ -147,12 +147,20 @@
     }
     .btn-hero{
         width: 20rem;
+        height: 60px;
+        font-size: 17px;
+        
     }
     .info-general{
         display: grid;
         grid-template-rows:auto;
         grid-template-columns: repeat(4,1fr);
         padding: 50px;
+        font-size:130%
+    }
+    .info-general img{
+        width: 82px;
+        height: 82px;
     }
     .statics{
         display: grid;
@@ -163,12 +171,14 @@
     }
     .statics-hero{
         grid-column: 1 / 4;
+        font-size: 130%;
     }
     .bot,.top-bot,.top{
         border: none;
     }
     .static-info{
         border: solid #00B6F7;
+        font-size:120%;
     }
     .left-top{
         border-left:none;
@@ -191,6 +201,9 @@
     .right-bottom{
         border-right: none;
         border-bottom: none;
+    }
+    .title-comment{
+        font-size: 130%;
     }
     .grid-comment{
         display: grid;
