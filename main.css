@@ -33,7 +33,7 @@ html {
 
 @media (min-width: 768px) {
     .container {
-        max-width: 720px;
+        max-width: calc(100% - 115px);
     }
     html {
         font-size: 68%;
@@ -45,7 +45,7 @@ html {
 
 @media (min-width: 1200px) {   
     .container {
-        max-width: 1170px;
+        max-width: calc(100% - 115px);
     }
     html {
         font-size: 70%;
@@ -87,6 +87,16 @@ body {
 /* End Special-btn */
 
 /*Start Nav Bar*/
+
+/* Start burger-menu Fix */
+.nav__mobile {
+    z-index: 999;
+}
+.nav__list {
+    z-index: -999;
+}
+/* End burger-menu Fix */
+
 .nav__main {
     position: relative;
     background-color: darkblue;
@@ -119,7 +129,6 @@ body {
     top: -400px;
     text-align: center;
     transition: .3s;
-    z-index: -1;
 }
 
 .nav__burgermenu li {
