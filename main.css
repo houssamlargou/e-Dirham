@@ -349,3 +349,44 @@ footer .footer__socials {
   font-size: 1.8rem;
   line-height: 1.5;
 }
+
+/***********************/
+/* e-dirham-advantages */
+/***********************/
+
+.edirham-advantages {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  align-items: center;
+}
+
+.edirham-advantages__title {
+  font-size: 1.8rem;
+}
+
+.edirham-advantages__container {
+  width: 40%;
+}
+
+.edirham-advantages__icon {
+  width: 3rem;
+  justify-self: end;
+}
+
+.edirham-advantages__card {
+  display: grid;
+  align-items: center;
+  gap: 1rem;
+}
+
+.edirham-advantages__card-title {
+  font-weight: bold;
+  justify-self: start;
+}
+
+.edirham-advantages__para {
+  grid-column: 1/3;
+  text-align: center;
+}
