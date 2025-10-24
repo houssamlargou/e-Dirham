@@ -433,12 +433,12 @@ footer .footer__socials {
 
 /*  start actuialiter:::::::::::::::::::::::::::::::::::::::::: */
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
-*{
+/* *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 
-}
+} */
 :root{
     --nav_bgcolor:rgba(0, 15, 112, 1);
     --btn_bgcolor:rgba(3, 101, 208, 1);
@@ -472,6 +472,8 @@ justify-content: space-around;
 }
 .actualite-part1-left-title {
    margin-left: 20px;
+   font-size: 35px;
+   
 }
 .actualite-part1-left-title span{
     color: blue;
@@ -554,7 +556,7 @@ height: 100%;
     align-items: flex-start;
 }
 .actualite-part2-voir-plus{
-    background-color: rgba(0, 0, 255, 0);
+    background-color: rgba(255, 255, 255, 0);
    display: flex;
    justify-content: center;
    align-items: center;
@@ -563,6 +565,7 @@ height: 100%;
    width: 100px;
    border-bottom: 2px solid black;
    font-weight: 600;
+   font-size: 14px;
   
 }
 /* end part two actualite */
@@ -578,6 +581,7 @@ height: 100%;
 .actualite-part3-title{
     text-align: center;
     font-weight: 500;
+    font-size: 20px;
 }
 /* end part email actualite */
 /* start part blog actualite */
@@ -586,8 +590,16 @@ height: 100%;
     
     background-color: rgba(255, 0, 0, 0);
 }
+
 .actualite-part4-title ,.actualite-part4-date{
     padding-left: 20px;
+    font-size: 18px;
+}
+.actualite-part4-title{
+  
+  background-color: rgb(255, 255, 255);
+  font-size: 30px;
+
 }
 .actualite-part4-date{
     height: 50px;
@@ -807,7 +819,7 @@ padding-left: 5%;
 /* end part two actualite */
 /* start part email actualite */
 .actualite-part3{
-    min-height: 30vh;
+    min-height: 50vh;
     background: linear-gradient(rgba(0, 15, 112, 1),rgba(3, 101, 208, 1));
     display: flex;
     flex-direction: column;
@@ -848,7 +860,7 @@ padding-left: 5%;
 }
 .actualite-part4-date{
     height: 50px;
-    background-color: rgba(217, 0, 255, 0);
+    background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
@@ -857,10 +869,17 @@ padding-left: 5%;
 }
 .actualite-part4-section{
     display: flex;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
     .paragraph{
-        background-color: rgba(128, 255, 0, 0);
+        background-color: rgba(252, 252, 252, 0);
         width: 50%;
         padding: 20px 0;
+        margin-top: 0;
+        p{
+          background-color: rgb(255, 255, 255);
+          
+        }
     }
 
 }
