@@ -1,101 +1,464 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.6.0/css/all.css">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v6.6.0/css/all.css"
+    />
     <!-- Main Style -->
-    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./main.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Start Nav Mobile -->
     <nav class="nav__main nav__mobile">
-        <div class="image">
-            <img src="images/Logo.png" alt="">
+      <div class="image">
+        <img src="images/Logo.png" alt="" />
+      </div>
+      <div class="nav__button">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+        <div class="nav__burgermenu">
+          <ul class="nav__list">
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#">Fonctionnement</a></li>
+            <li><a href="">Sécurité</a></li>
+            <li><a href="#">Impact</a></li>
+            <li><a href="#">Actualités</a></li>
+          </ul>
         </div>
-        <div class="nav__button">
-            <div class="one"></div>
-            <div class="two"></div>
-            <div class="three"></div>
-            <div class="nav__burgermenu">
-                <ul class="nav__list">
-                    <li><a href="#">Accueil</a></li>
-                    <li><a href="#">Fonctionnement</a></li>
-                    <li><a href="">Sécurité</a></li>
-                    <li><a href="#">Impact</a></li>
-                    <li><a href="#">Actualités</a></li>
-                </ul>
-            </div>
-        </div>
+      </div>
     </nav>
     <!-- End Nav Mobile -->
     <!-- Start Nav Desktop -->
     <nav class="nav__main nav__desktop">
-        <div class="image">
-            <img src="images/Logo.png" alt="">
-        </div>
-        <div class="nav__links">
-            <ul class="nav__list">
-                <li><a href="#">Accueil</a></li>
-                <li><a href="#">Fonctionnement</a></li>
-                <li><a href="">Sécurité</a></li>
-                <li><a href="#">Impact</a></li>
-                <li><a href="#">Actualités</a></li>
-                <li><a href="#" class="special-btn">En savoir plus</a></li>
-            </ul>
-        </div>
+      <div class="image">
+        <img src="images/Logo.png" alt="" />
+      </div>
+      <div class="nav__links">
+        <ul class="nav__list">
+          <li><a href="#">Accueil</a></li>
+          <li><a href="#">Fonctionnement</a></li>
+          <li><a href="">Sécurité</a></li>
+          <li><a href="#">Impact</a></li>
+          <li><a href="#">Actualités</a></li>
+          <li><a href="#" class="special-btn">En savoir plus</a></li>
+        </ul>
+      </div>
     </nav>
     <!-- End Nav Desktop -->
 
-
     <!-- Start Site Content -->
-    <br><br><br>
+
+    <!-- Hero section -->
+    <section class="hero">
+      <div class="hero-content">
+        <img
+          src="/images/credit card payment.png"
+          alt="credit card payment"
+          class="hero__img"
+        />
+        <h1 class="hero__title">
+          Le <span class="hash">e-Dirham</span>, l’avenir du paiement au Maroc.
+        </h1>
+        <h3 class="hero__subtitle">
+          Le e-Dirham, l’avenir du paiement au Maroc.
+        </h3>
+        <button class="hero__button special-btn">Découvrir le e-Dirham</button>
+      </div>
+    </section>
+    <!-- End hero Content -->
+
+    <!-- Partners section -->
+
+    <section class="partners">
+      <h3 class="partners__header">
+        Partenaires officiels du <span class="hash">e-Dirham</span>
+      </h3>
+      <div class="partners__container">
+        <div class="partners__img">
+          <img
+            src="images/Bank Of Africa BMCE Group-vector.ma.svg-vector.ma.svg"
+            alt="Bank Of Africa BMCE"
+          />
+        </div>
+        <div class="partners__img">
+          <img
+            src="images/CIH BANK Logo-vector.ma.svg-vector.ma.svg"
+            alt="CIH BANK"
+          />
+        </div>
+        <div class="partners__img">
+          <img
+            src="images/Al Barid Bank-vector.ma.svg-vector.ma.svg"
+            alt="Al Barid Bank"
+          />
+        </div>
+      </div>
+    </section>
+    <!--End partners section-->
+
+    <!-- e-dirham overview section-->
+
+    <section class="edirham-overview">
+      <div class="edirham-overview__background"></div>
+      <img
+        src="images/digital-payments.jpg"
+        alt="digital payments"
+        class="edirham-overview__img"
+      />
+      <h2 class="edirham-overview__title">
+        Qu’est-ce que le <span class="hash">e-Dirham</span> ?
+      </h2>
+      <h3 class="edirham-overview__subtitle">
+        Une solution digitale innovante développée par Bank Al-Maghrib pour
+        faciliter les paiements au Maroc.
+      </h3>
+      <p class="edirham-overview__para">
+        Le e-Dirham est une monnaie digitale nationale conçue pour rendre les
+        paiements plus rapides, sécurisés et accessibles à tous. Il permet aux
+        citoyens, entreprises et institutions d’effectuer des transactions sans
+        utiliser d’argent liquide, tout en bénéficiant d’une transparence et
+        d’une fiabilité garanties par Bank Al-Maghrib.
+      </p>
+    </section>
+
+    <!-- end e-dirham overview section-->
+
+    <!-- e-dirham-advantages-->
+    <section class="edirham-advantages">
+      <h2 class="edirham-advantages__title">
+        Les avantages du <span class="hash">e-Dirham</span>
+      </h2>
+      <div class="edirham-advantages__container">
+        <div class="edirham-advantages__card">
+          <img
+            src="images/security-safe-svgrepo-com.svg"
+            alt="security icon"
+            class="edirham-advantages__icon"
+          />
+          <div class="edirham-advantages__card-title">Sécurité</div>
+          <p class="edirham-advantages__para">
+            Toutes les transactions sont protégées par les standards
+            technologiques les plus avancés, garantissant la confidentialité et
+            la traçabilité des paiements.
+          </p>
+        </div>
+      </div>
+      <div class="edirham-advantages__container">
+        <div class="edirham-advantages__card">
+          <img
+            src="images/earth-15-svgrepo-com.svg"
+            alt="security icon"
+            class="edirham-advantages__icon"
+          />
+          <div class="edirham-advantages__card-title">Inclusion</div>
+          <p class="edirham-advantages__para">
+            Le e-Dirham permet à chaque citoyen, même sans compte bancaire,
+            d’accéder à des services financiers modernes et simples
+            d’utilisation.
+          </p>
+        </div>
+      </div>
+      <div class="edirham-advantages__container">
+        <div class="edirham-advantages__card">
+          <img
+            src="images/flash-1-svgrepo-com.svg"
+            alt="security icon"
+            class="edirham-advantages__icon"
+          />
+          <div class="edirham-advantages__card-title">Rapidité</div>
+          <p class="edirham-advantages__para">
+            Envoyez ou recevez des paiements instantanément, sans contraintes
+            d’horaires ni d’intermédiaires complexes.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- end e-dirham-advantages-->
+    <!-- testimonials section-->
+    <section class="testimonials">
+      <h2 class="testimonials__title">Témoignages</h2>
+      <div class="testimonial__card">
+        <div class="testimonial__author">
+          <img
+            src="images/nicolas-horn-MTZTGvDsHFY-unsplash.jpg"
+            alt=""
+            class="testimonial__author-img"
+          />
+          <div class="testimonial__author-info">
+            <div class="testimonial__author-name">Youssef</div>
+            <div class="testimonial__author-city">Casablanca</div>
+          </div>
+        </div>
+        <q class="testimonial__text"
+          >Un grand pas vers la modernisation du Maroc. Le e-Dirham rend les
+          transactions plus simples pour tous.</q
+        >
+      </div>
+      <div class="testimonial__card">
+        <div class="testimonial__author">
+          <img
+            src="images/stefan-stefancik-QXevDflbl8A-unsplash.jpg"
+            alt=""
+            class="testimonial__author-img"
+          />
+          <div class="testimonial__author-info">
+            <div class="testimonial__author-name">Sara</div>
+            <div class="testimonial__author-city">Rabat</div>
+          </div>
+        </div>
+        <q class="testimonial__text"
+          >“Grâce au e-Dirham, je peux payer mes factures en ligne en toute
+          sécurité. C’est rapide et très pratique !”</q
+        >
+      </div>
+    </section>
+    <!-- end e-dirham testimonials-->
+
+    <!-- Faq testimonials-->
+    <section class="faq">
+      <h2 class="faq__title">FAQ</h2>
+      <div class="faq__card">
+        <img src="images/down.png" alt="down icon" class="faq__icon" />
+        <div class="faq__text">Comment obtenir un compte e-Dirham ?</div>
+      </div>
+      <div class="faq__card">
+        <img src="images/down.png" alt="down icon" class="faq__icon" />
+        <div class="faq__text">
+          Le e-Dirham remplace-t-il l’argent liquide ?
+        </div>
+      </div>
+    </section>
+    <!-- end faq testimonials-->
+
     <!-- End Site Content -->
+
+    <!-- start actuialiter ::::::::::::::::::::::::::::::: -->
+    <!-- /* start part one actualite */ -->
+    <div class="actualite-part1">
+      <div class="actualite-part1-left">
+        <h1 class="actualite-part1-left-title">
+          Toute<br />
+          l’actualité sur le<br />
+          <span>e-Dirham</span> — <br />Vers un Maroc <br />plus digital.
+        </h1>
+        <div class="actualite-part1-left-search">
+          <input type="text" placeholder="Rechercher un article... " />
+          <button class="actualite-part1-left-search-btn">S’abonner</button>
+        </div>
+      </div>
+      <div class="actualite-part1-right">
+        <img src="images/image 8.png" alt="" />
+      </div>
+    </div>
+    <!-- /* end part one actualite */ -->
+    <!-- /* start part two actualite */ -->
+    <div class="actualite-part2">
+      <h2 class="actualite-part2-title">Articles récents</h2>
+      <div class="actualite-part2-article1" id="article1">
+        <img src="images/images 1.png" alt="" />
+        <p>19 mars 2025</p>
+        <br />
+        <p>
+          Le Maroc reporte le e-Dirham et privilégie<br />
+          l’inclusion financière
+        </p>
+      </div>
+      <div class="actualite-part2-article1" id="article2">
+        <img src="images/bank-al-maghrib.png" alt="" />
+        <p>19 mars 2025</p>
+        <br />
+        <p>
+          Le Maroc reporte le e-Dirham et privilégie<br />
+          l’inclusion financière
+        </p>
+      </div>
+      <div class="actualite-part2-article1" id="article3">
+        <img src="images/E-dirham-Monnaie.png" alt="" />
+        <p>19 mars 2025</p>
+        <br />
+        <p>
+          Le Maroc reporte le e-Dirham et privilégie<br />
+          l’inclusion financière
+        </p>
+      </div>
+      <div class="actualite-part2-voir-plus">voir plus</div>
+    </div>
+
+    <!-- /* start part email actualite */ -->
+    <div class="actualite-part3">
+      <h3 class="actualite-part3-title">
+        Vous souhaitez recevoir les<br />
+        derniers articles sur le e-Dirham et<br />
+        la finance numérique au Maroc ?<br />Entrez votre adresse e-mail ci-<br />dessous
+      </h3>
+      <div class="actualite-part1-left-search">
+        <input type="text" placeholder="Entrez votre e-mail... " />
+        <button class="actualite-part1-left-search-btn">S’abonner</button>
+      </div>
+    </div>
+    <!-- /* end part email actualite */ -->
+    <!-- /* start part blog actualite */ -->
+    <div class="actualite-part4">
+      <h1 class="actualite-part4-title">
+        Du concept à la <br />réalité : la <br />chronologie du
+        <span>e-<br />Dirham</span>.
+      </h1>
+      <div class="actualite-part4-section">
+        <div class="actualite-part4-date">
+          <div class="point"></div>
+          <div class="date">Janvier 2023</div>
+        </div>
+        <div class="paragraph">
+          <p>
+            Lancement officiel du projet e-Dirham par Bank Al-Maghrib, avec
+            constitution d’un comité d’experts en monnaie digitale.
+          </p>
+        </div>
+      </div>
+      <div class="actualite-part4-section">
+        <div class="actualite-part4-date">
+          <div class="point"></div>
+          <div class="date">Mai 2023</div>
+        </div>
+        <div class="paragraph">
+          <p>Développement du prototype fonctionnel de la monnaie digitale.</p>
+        </div>
+      </div>
+      <div class="actualite-part4-section">
+        <div class="actualite-part4-date">
+          <div class="point"></div>
+          <div class="date">Août 2023</div>
+        </div>
+        <div class="paragraph">
+          <p>
+            Premiers tests pilotes avec un échantillon restreint de citoyens et
+            d’institutions publiques.
+          </p>
+        </div>
+      </div>
+      <div class="actualite-part4-section">
+        <div class="actualite-part4-date">
+          <div class="point"></div>
+          <div class="date">Novembre 2023</div>
+        </div>
+        <div class="paragraph">
+          <p>
+            Élargissement des tests et ajustements techniques selon les retours
+            utilisateurs.
+          </p>
+        </div>
+      </div>
+      <div class="actualite-part4-section">
+        <div class="actualite-part4-date">
+          <div class="point"></div>
+          <div class="date">Mars 2024</div>
+        </div>
+        <div class="paragraph">
+          <p>
+            Signature de partenariats stratégiques avec les principales banques
+            et plateformes de paiement mobile.
+          </p>
+        </div>
+      </div>
+      <div class="actualite-part4-section">
+        <div class="actualite-part4-date">
+          <div class="point"></div>
+          <div class="date">Juin 2024</div>
+        </div>
+        <div class="paragraph">
+          <p>
+            Annonce publique du lancement du e-Dirham et campagne de
+            sensibilisation nationale.
+          </p>
+        </div>
+      </div>
+      <div class="actualite-part4-section">
+        <div class="actualite-part4-date">
+          <div class="point"></div>
+          <div class="date">Septembre 2024</div>
+        </div>
+        <div class="paragraph">
+          <p>
+            Lancement officiel du projet e-Dirham par Bank Al-Maghrib, avec
+            constitution d’un comité d’experts en monnaie digitale.
+          </p>
+        </div>
+      </div>
+      <div class="actualite-part4-section">
+        <div class="actualite-part4-date">
+          <div class="point"></div>
+          <div class="date">Décembre 2024</div>
+        </div>
+        <div class="paragraph">
+          <p>Déploiement progressif dans les grandes villes marocaines.</p>
+        </div>
+      </div>
+    </div>
+    <!-- /* start part ad actualite */ -->
+    <div class="actualite-part5">
+      <h1 class="actualite-part4-title">
+        Le <span>futur</span> des <br />
+        paiements au<br />Maroc commence<br />
+        ici
+      </h1>
+      <video autoplay loop muted>
+        <source src="video/simple-iphone-15-pro.mp4" />
+      </video>
+    </div>
+    <!-- /* end part ad actualite */ -->
+    <!--  end part actuialiter::::::::::::::::::::::::::::::::::::: -->
 
     <!-- Start Footer -->
     <div class="container">
-        <footer>
-            <div class="footer__logo">
-                <img src="images/Logo.png" alt="">
-                <span>Le e-Dirham une solution de paiement <br> digitale. sécurisée et 100% marocaine.</span>
+      <footer>
+        <div class="footer__logo">
+          <img src="images/Logo.png" alt="" />
+          <span
+            >Le e-Dirham une solution de paiement <br />
+            digitale. sécurisée et 100% marocaine.</span
+          >
+        </div>
+        <div class="footer__nav">
+          <h2>Navigation</h2>
+          <ul class="footer__links">
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#">Fonctionnement</a></li>
+            <li><a href="">Sécurité</a></li>
+            <li><a href="#">Impact</a></li>
+            <li><a href="#">Actualités</a></li>
+          </ul>
+        </div>
+        <div class="footer__socials">
+          <h2>Suivez-nous</h2>
+          <div class="socials">
+            <div class="platform facebook">
+              <i class="fa-brands fa-facebook"></i>
+              <a href="#">Facebook</a>
             </div>
-            <div class="footer__nav">
-                <h2>Navigation</h2>
-                <ul class="footer__links">
-                    <li><a href="#">Accueil</a></li>
-                    <li><a href="#">Fonctionnement</a></li>
-                    <li><a href="">Sécurité</a></li>
-                    <li><a href="#">Impact</a></li>
-                    <li><a href="#">Actualités</a></li>
-                </ul>
+            <div class="platform twitter">
+              <i class="fa-brands fa-twitter"></i>
+              <a href="#">Twitter</a>
             </div>
-            <div class="footer__socials">
-                <h2>Suivez-nous</h2>
-                <div class="socials">
-                    <div class="platform facebook">
-                        <i class="fa-brands fa-facebook"></i>
-                        <a href="#">Facebook</a>
-                    </div>
-                    <div class="platform twitter">
-                        <i class="fa-brands fa-twitter"></i>
-                        <a href="#">Twitter</a>
-                    </div>
-                    <div class="platform linkedin">
-                        <i class="fa-brands fa-linkedin"></i>
-                        <a href="#">LinkedIn</a>
-                    </div>
-                </div>
+            <div class="platform linkedin">
+              <i class="fa-brands fa-linkedin"></i>
+              <a href="#">LinkedIn</a>
             </div>
-            <div class="footer__copyright">
-                <span>&copy;2025 e-Dirham - Tous droits réservés.</span>
-            </div>
-        </footer>
+          </div>
+        </div>
+        <div class="footer__copyright">
+          <span>&copy;2025 e-Dirham - Tous droits réservés.</span>
+        </div>
+      </footer>
     </div>
     <!-- End Footer -->
 
     <!-- Java Script !-->
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
