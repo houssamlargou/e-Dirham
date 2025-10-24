@@ -438,7 +438,10 @@ footer .footer__socials {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+<<<<<<< Updated upstream
   padding: 1rem;
+=======
+>>>>>>> Stashed changes
 }
 
 .faq__card {
@@ -452,6 +455,7 @@ footer .footer__socials {
 }
 
 .faq__icon {
+<<<<<<< Updated upstream
   width: 1.5rem;
 }
 
@@ -882,3 +886,8 @@ nav {
   }
 }
 /* end ctuialiter:::::::::::::::::::::::::: */
+=======
+    width: 1.5rem;
+    
+}
+>>>>>>> Stashed changes
