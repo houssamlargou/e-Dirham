@@ -1485,7 +1485,7 @@ footer .footer__socials {
   
   .functionement .hero {
     background-color: var(--color);
-    background-image: url('images/maroc.jpg');
+    background-image: url("./images/maroc.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     display: flex;
