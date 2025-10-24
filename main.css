@@ -467,6 +467,9 @@ footer .footer__socials {
         grid-template-areas: 
         "one one two three"
         "four five six six";
+        grid-template-columns: auto;
+        justify-content: center;
+        gap: 15px;
     }
     .features .box__one {
         grid-area: one;
@@ -507,17 +510,17 @@ footer .footer__socials {
     }
     .quotes {
         flex-direction: row;
-        /* height: 480px; */
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
     }
     .quotes .quotes__quote {
-        flex: 1 1 50%;
-        flex-wrap: wrap;
+        flex: 1 1 45%;
     }
-    /* .quotes .quotes__quote:nth-child(2) {
-        position: relative;
-        bottom: -275px;
-        left: 50px;
-    } */
+    .quotes .quotes__quote:nth-child(3) {
+        flex: 0 1 50%; 
+        margin-top: 25px;
+    }
 }
 
 /* End Security Section */
