@@ -389,4 +389,42 @@ footer .footer__socials {
 .edirham-advantages__para {
   grid-column: 1/3;
   text-align: center;
+/****************/
+/* testimonials */
+/****************/
+
+.testimonials {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.testimonial__author {
+  display: flex;
+  gap: 1rem;
+}
+
+.testimonial__author-info {
+  display: flex;
+  flex-direction: column;
+  /* gap: 1r; */
+  justify-content: center;
+}
+
+.testimonial__author-img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+}
+.testimonial__card {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 31.9rem;
+  /* height: 10.2rem; */
+  background-color: #d9d9d9;
+  border-radius: 1.5rem;
+  padding: 1rem;
+  gap: 1rem;
 }
