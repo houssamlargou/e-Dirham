@@ -55,6 +55,7 @@ html {
   }
   nav.nav__desktop {
     display: flex;
+    padding: 4rem;
   }
   footer {
     display: flex;
