@@ -266,12 +266,13 @@ footer .footer__socials {
 
 .hero__title {
   text-align: center;
-  padding: 0rem 1rem;
+  /* padding: 0rem 1rem; */
+  font-size: 2.4rem;
   font-family: "Baskervville", italic, serif;
   font-style: italic;
 }
 
-.hero__title-hash {
+.hash {
   color: var(--Blue);
 }
 
@@ -301,4 +302,50 @@ footer .footer__socials {
 
 .partners__img {
   width: 100%;
+}
+
+/*********************/
+/* e-dirham-overview */
+/*********************/
+
+.edirham-overview {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+  position: relative;
+}
+
+.edirham-overview__background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  opacity: 0.74;
+  background-color: white;
+}
+
+.edirham-overview__img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+}
+
+.edirham-overview__title {
+  font-size: 1.8rem;
+}
+
+.edirham-overview__subtitle {
+  font-size: 1.6rem;
+}
+
+.edirham-overview__para {
+  font-size: 1.8rem;
+  line-height: 1.5;
 }
