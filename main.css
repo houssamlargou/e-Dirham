@@ -33,7 +33,7 @@ html {
 
 @media (min-width: 768px) {
   .container {
-    max-width: calc(100% - 115px);
+    max-width: 720px;
   }
   html {
     font-size: 68%;
@@ -45,7 +45,7 @@ html {
 
 @media (min-width: 1200px) {
   .container {
-    max-width: calc(100% - 115px);
+    max-width: 1170px;
   }
   html {
     font-size: 70%;
