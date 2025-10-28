@@ -817,6 +817,25 @@ footer .footer__socials {
     font-size: 1.6rem;
   }
   /******************/
+  .newsletter__content {
+    height: 100%;
+  }
+  .newsletter__content {
+    width: 101.2rem;
+  }
+  .newsletter__title {
+    font-size: 5rem;
+  }
+  .newletter__para {
+    font-size: 4rem;
+  }
+  .newsletter__input {
+    width: 58.1rem;
+    font-size: 4rem;
+  }
+  .newletter__btn {
+    font-size: 4rem;
+  }
 }
 
 .impact-sec .btn-hero {
