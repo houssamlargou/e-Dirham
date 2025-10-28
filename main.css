@@ -17,8 +17,6 @@
   --dark-blue: #000f70;
 }
 
-
-
 nav.nav__desktop {
   display: none;
 }
@@ -383,15 +381,22 @@ footer .footer__socials {
 /***********************/
 
 .edirham-advantages {
-  padding: 2rem;
+  padding: 8rem 0;
   display: flex;
   flex-direction: column;
   gap: 4rem;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   font-size: 1.6rem;
   height: 100vh;
-  padding: 4rem 0;
+}
+
+.edirham-advantages__content {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 8rem;
 }
 
 .edirham-advantages__title {
@@ -653,7 +658,7 @@ footer .footer__socials {
 
   .hero__subtitle {
     font-size: 2rem;
-    opacity: .8;
+    opacity: 0.8;
   }
 
   .hash {
@@ -666,55 +671,128 @@ footer .footer__socials {
     font-size: 1.8rem;
   }
 
-  /* .hero {
+  /*********************/
+  /* e-dirham-overview */
+  /*********************/
+
+  .edirham-overview {
+    height: 57.2rem;
+  }
+
+  .edirham-overview-container {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 5rem);
+    column-gap: 8rem;
+  }
+
+  .edirham-overview__background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    opacity: 0.74;
+    background-color: white;
+  }
+
+  .edirham-overview__img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+  }
+
+  .edirham-overview__title {
+    font-size: 3.6rem;
+    height: fit-content;
+  }
+
+  .edirham-overview__subtitle {
+    font-size: 1.8rem;
+  }
+
+  .edirham-overview__para {
+    justify-self: center;
+    grid-column: 2/3;
+    grid-row: 1/3;
+    font-size: 3rem;
+    width: 50rem;
+    text-align: left;
+  }
+  /************/
+  /* Partners */
+  /************/
+
+  .partners__container {
+    width: 50%;
+  }
+
+  .partners__img {
+    width: 100%;
+  }
+
+  .partners__header {
+    font-size: 2.4rem;
+  }
+
+  /***********************/
+  /* e-dirham-advantages */
+  /***********************/
+
+  .edirham-advantages__icon {
+    width: 4rem;
+  }
+
+  .edirham-advantages__card {
+    width: 50rem;
+  }
+
+  .edirham-advantages__title {
+    font-size: 4.8rem;
+  }
+
+  .edirham-advantages__card-title {
+    font-size: 2.4rem;
+  }
+
+  .edirham-advantages__content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .edirham-advantages__container {
+    width: 100%;
+  }
+
+  .edirham-advantages__card--3 {
+    grid-column: 1/3;
     display: flex;
-    height: 100vh;
-    padding: 0 4rem;
-  }
-  .hero-content {
-    flex-direction: row;
-    padding: 0;
-  }
-
-  .hero__img {
-    order: 2;
-    justify-self: end;
-  }
-
-  .hero__content {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-  }
-
-  .hero__title {
-    font-size: 40px;
-    text-align: start;
-  } */
-  /* .hero__subtitle,
-  .partners .partners__header {
-    font-size: 24px;
-  } */
-  /* .hero__button {
-    padding: 20px 25px;
-    font-size: 24px;
-  } */
-  .edirham-advantages {
-    flex-direction: row;
-    flex-wrap: wrap;
     justify-content: center;
   }
-  .edirham-advantages__title,
-  .faq__title {
-    width: 100%;
-    text-align: center;
-  }
-  .edirham-advantages__card-title {
-    font-size: 24px;
-  }
+
   .edirham-advantages__para {
     font-size: 22px;
   }
+  /**************************************/
+
+  /* .edirham-advantages {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  } */
+  /* .edirham-advantages__title,
+  .faq__title {
+    width: 100%;
+    text-align: center;
+  } */
+  /* .edirham-advantages__card-title {
+    font-size: 24px;
+  } */
   .testimonials,
   .faq {
     flex-direction: row !important;
