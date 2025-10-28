@@ -265,12 +265,20 @@ footer .footer__socials {
   justify-content: center;
 }
 
-.hero-content {
+.hero-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 5rem;
+  gap: 1.5rem;
+}
+
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 1.5rem;
 }
 
