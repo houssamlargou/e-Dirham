@@ -486,11 +486,6 @@ footer .footer__socials {
 /* FAQ */
 /*******/
 
-/* :root{
-  --nav_bgcolor:rgba(0, 15, 112, 1);
-  --btn_bgcolor:rgba(3, 101, 208, 1);
-  --main_color:white;
-} */
 .faq {
   display: flex;
   flex-direction: column;
@@ -808,6 +803,18 @@ footer .footer__socials {
 
   .testimonial__text {
     font-size: 1.8rem;
+  }
+
+  /*******/
+  /* FAQ */
+  /*******/
+
+  .faq__card {
+    width: 124.1rem;
+  }
+
+  .faq__text {
+    font-size: 1.6rem;
   }
   /******************/
 }
