@@ -20,9 +20,24 @@
 nav.nav__desktop {
   display: none;
 }
-
+body{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 10px;
+}
 html {
   font-size: 62.5%;
+}
+.container{
+  background-color: rgba(150, 8, 8, 0);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 100%;
+/* margin-top:80px; */
 }
 
 @media (min-width: 768px) {
@@ -49,6 +64,7 @@ html {
   }
   nav.nav__desktop {
     display: flex;
+    
   }
   .nav__desktop img {
     width: 150px;
@@ -105,6 +121,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 0px 30px;
+  height: 80px;
 }
 
 .nav__main a {
@@ -277,6 +294,7 @@ footer .footer__socials {
 
 .hero__img {
   width: 70vw;
+  
 }
 
 .hero__title {
@@ -1336,7 +1354,7 @@ footer .footer__socials {
   justify-content: flex-end;
   align-items: flex-end;
   width: 100%;
-  height: 200px;
+  height: 300px;
 }
 
 .functionement .hero__titre {
@@ -1446,7 +1464,7 @@ footer .footer__socials {
   .functionement .hero {
     background-color: #d4e1e3;
     width: 100%;
-    height: 500px;
+    height: 700px;
   }
   .functionement #crypto {
     font-size: 70px;
@@ -1455,8 +1473,8 @@ footer .footer__socials {
     font-size: 70px;
   }
   .functionement img {
-    width: 200px;
-    height: 200px;
+    width: 20px;
+    height: 20px;
   }
   .functionement .grid {
     display: grid;
@@ -1921,4 +1939,4 @@ nav {
     color: var(--btn_bgcolor);
   }
 }
-/* end ctuialiter:::::::::::::::::::::::::: */
+/* end actuialiter:::::::::::::::::::::::::: */
