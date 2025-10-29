@@ -1,6 +1,6 @@
 /* Global Setting Start */
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Baskervville:ital,wght@0,400..700;1,400..700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Jura:wght@300..700&family=League+Spartan:wght@100..900&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -20,24 +20,15 @@
 nav.nav__desktop {
   display: none;
 }
-body{
-  display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 10px;
+
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+  width: 100%;
 }
+
 html {
   font-size: 62.5%;
-}
-.container{
-  background-color: rgba(150, 8, 8, 0);
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-width: 100%;
-/* margin-top:80px; */
 }
 
 @media (min-width: 768px) {
@@ -64,17 +55,16 @@ width: 100%;
   }
   nav.nav__desktop {
     display: flex;
-    
+
   }
   .nav__desktop img {
     width: 150px;
   }
-  footer {
+  footer .container {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    margin: 0 -60px !important;
   }
   .footer__socials .socials {
     gap: 10px;
@@ -1081,7 +1071,7 @@ footer .footer__socials {
   display: flex;
   flex-direction: column;
   background-color: var(--Sous-titre-Color);
-  color: white;
+  color: white !important;
   border-radius: 25px;
   overflow: hidden;
 }
@@ -1121,6 +1111,18 @@ footer .footer__socials {
   left: 0;
   position: absolute;
   background-color: rgba(0, 0, 0, 20%);
+}
+
+.features__long-box p {
+  color: white !important;
+  font-size: 22px !important;
+  margin-left: 15px !important;
+  line-height: 1.6 !important;
+}
+
+.features__box p {
+  color: white !important;
+  line-height: 1.6 !important;
 }
 
 .features__long-box .box__image img {
@@ -1215,9 +1217,15 @@ footer .footer__socials {
   display: block;
 }
 
+.quality__box img {
+  width: 75px !important;
+  height: 75px !important;
+}
+
 .quality__box p {
   font-size: 18px;
   line-height: 26px;
+  color: white !important;
 }
 
 /* Third section start */
@@ -1243,6 +1251,11 @@ footer .footer__socials {
 .quotes .quote__info {
   display: flex;
   align-items: flex-end;
+}
+
+.quote__text p {
+  color: white !important;
+  font-size: 20px !important;
 }
 
 .quotes .quote__name {
@@ -1525,10 +1538,7 @@ footer .footer__socials {
   --btn_bgcolor: rgba(3, 101, 208, 1);
   --main_color: white;
 }
-body {
-  /* min-height: 100vh; */
-  font-family: "Plus Jakarta Sans", sans-serif;
-}
+
 /* start part one actualite */
 nav {
   height: 10vh;
